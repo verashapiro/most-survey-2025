@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Добавляем фавикон -->
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <link rel="shortcut icon" type="image/png" href="./favicon.png">
+    <script src="https://unpkg.com/survey-core@2.0.8/survey.core.min.js"></script>
+    <script src="https://unpkg.com/survey-core@2.0.8/survey.i18n.min.js"></script>
+    <script src="https://unpkg.com/survey-core@2.0.8/themes/index.min.js"></script>
+    <script src="https://unpkg.com/survey-js-ui@2.0.8/survey-js-ui.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/survey-core@2.0.8/survey-core.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+      /* Дополнительные стили для логотипа */
+      .sv_logo {
+        max-height: 100px;
+        width: auto;
+        margin-bottom: 15px;
+        display: block;
+        object-fit: contain;
+        background-color: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="surveyElement" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; min-height: 100%; height:100%"></div>
+    <script src="./json.js"></script>
+    <script src="./theme.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
